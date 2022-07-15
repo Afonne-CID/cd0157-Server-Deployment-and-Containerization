@@ -2,11 +2,7 @@
     "Version": "2012-10-17",
     "Statement":[{
             "Effect": "Allow",
-            "Action": [
-                        "eks:Describe*",
-                        "ssm:GetParameters",
-                        "ssm:DescribeParameters"
-            ],
+            "Action": ["eks:Describe*", "ssm:GetParameters"],
             "Resource":"*"
         }
     ]
